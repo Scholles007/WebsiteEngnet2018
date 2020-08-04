@@ -1,0 +1,9 @@
+body, html {
+    height: 100%;
+    padding-top: 60px;
+    font-family: unbr;
+}
+
+body{
+    background-image: url(../../../../img/backgrounds/neo/c3.jpg);
+}

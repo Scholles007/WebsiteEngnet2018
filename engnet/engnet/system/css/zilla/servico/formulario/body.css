@@ -1,0 +1,45 @@
+/* Estilo css da página inicial da página se montagem de serviço */
+
+body{
+	background-image: url('../../../../img/zilla/2.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.corpo_principal{
+	background-color: rgba(0,0,0,0.8);
+	min-height: 100%;
+	margin-top: 5px;
+	max-width: 75%;
+	margin-left: 14%;
+
+}
+
+.col-md-12 > img{
+	padding: 15px;
+	margin-left: 28%;
+}
+
+label{
+	color:white;
+	font-family: unb;
+}
+
+button{
+	margin: 15px;
+	font-family: unb;
+}
+
+p{
+	color:white;
+	text-align: center;
+	font-family: unbr;
+}
+
+.corpo_secundario{
+	padding: 4% 12% 12% 12%;
+}
+
+

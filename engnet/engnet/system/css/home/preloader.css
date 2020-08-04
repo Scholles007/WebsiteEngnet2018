@@ -1,0 +1,244 @@
+@media only screen and (max-width: 2600px) {
+  
+
+
+.conjunto_loader{
+  top: 35%!important;
+  left: 38%!important;
+}
+
+}
+
+@media only screen and (max-width: 2000px) {
+  
+
+
+.conjunto_loader{
+  top: 35%!important;
+  left: 36%!important;
+}
+
+}
+
+@media only screen and (max-width: 1700px) {
+  
+
+
+.conjunto_loader{
+  top: 35%!important;
+  left: 34%!important;
+}
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+.conjunto_loader{
+  top: 35%!important;
+  left: 33%!important;
+}
+    
+
+}
+
+@media only screen and (max-width: 1385px) {
+
+.conjunto_loader{
+  top: 35%!important;
+  left: 31%!important;
+}
+    
+
+}
+
+@media only screen and (max-width: 1285px) {
+
+.conjunto_loader{
+  top: 35%!important;
+  left: 29%!important;
+}
+    
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  
+  .conjunto_loader{
+  top: 35%!important;
+  left: 27%!important;
+}
+
+}
+
+@media only screen and (max-width: 1100px) {
+  
+  .conjunto_loader{
+  top: 35%!important;
+  left: 25%!important;
+}
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .conjunto_loader{
+  top: 35%!important;
+  left: 23%!important;
+}
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  .conjunto_loader{
+  top: 35%!important;
+  left: 21%!important;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .conjunto_loader{
+  top: 35%!important;
+  left: 17%!important;
+}
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  .conjunto_loader{
+  top: 35%!important;
+  left: 14%!important;
+}
+    
+
+}
+
+@media only screen and (max-width: 630px) {
+  #loader{
+    width:140px!important;
+    height: 138px!important;
+  }
+
+  .engnet{
+    width:310px!important;
+    height: 136px!important;
+  }
+
+  .conjunto_loader{
+  top: 35%!important;
+  left: 13%!important;
+}
+
+}
+
+@media only screen and (max-width: 530px) {
+  #loader{
+    width:110px!important;
+    height: 108px!important;
+  }
+
+  .engnet{
+    width:242px!important;
+    height: 106px!important;
+  }
+}
+
+@media only screen and (max-width: 418px) {
+  #loader{
+    width:90px!important;
+    height: 88px!important;
+  }
+
+  .conjunto_loader{
+  top: 35%!important;
+  left: 13%!important;
+}
+
+  .engnet{
+    width:196px!important;
+    height: 86px!important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #loader{
+    width:90px!important;
+    height: 88px!important;
+  }
+
+  .conjunto_loader{
+  top: 35%!important;
+  left: 8%!important;
+}
+
+  .engnet{
+    width:196px!important;
+    height: 86px!important;
+  }
+}
+
+.engnet{
+  z-index: 1;
+}
+
+/* Center the loader */
+#loader {
+  z-index: 1;
+  width: 170px;
+  height: 168px;
+  -webkit-animation:spin 1s linear infinite;
+  -moz-animation:spin 1s linear infinite;
+  animation:spin 1s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+body{
+  background-size: 100%;
+}
+
+.capa_inicial{
+  width:auto;
+  max-height: 168px!important;
+}
+
+.conjunto_loader{
+  white-space: nowrap;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+
+}
+
+

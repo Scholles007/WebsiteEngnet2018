@@ -1,0 +1,37 @@
+.title_blog{
+    color: #f0f3f3;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 100px;
+}
+
+.title_article{
+    margin: 5px;
+    text-align: justify;
+}
+
+.outline_article{
+    margin-bottom: 15px;
+}
+
+.text{
+    text-align: justify;
+    margin-top: 7px;
+}
+
+.parallax {
+    background-image: url(../../../blog/blogc.jpg);
+    height: 250px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+body, html {
+    height: 100%;
+    padding-top: 60px;
+    font-family: unbr;
+}

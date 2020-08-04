@@ -1,0 +1,758 @@
+@media only screen and (max-width: 1200px) {
+
+  .titulo_portfolio{
+  font-size: 23px!important;
+}
+
+.texto_portfolio{
+  font-size:12px!important;
+}
+
+.portfolio_caption{
+  height: 80px!important;
+  margin-top: -80px!important;
+}
+
+
+  .texto_capa2{
+    font-size: 18px!important;
+  }
+
+  .c1p{
+      margin-top: 25%!important;
+      margin-bottom: 5%!important;
+      font-size: 15px!important;
+  }
+
+  .c2p{
+      margin-top: 25%!important;
+      margin-bottom: 5%!important;
+      font-size: 13px!important;
+  }
+
+  .c3p{
+      margin-top: 25%!important;
+      margin-bottom: 5%!important;
+      font-size: 10px!important;
+  }
+
+  .c3p > h2{
+      font-size: 16px!important;
+  }
+
+  .imgc1{
+  margin-top: 35%!important;
+  font-size: 52px!important;
+  color: white;
+  font-family: reduced;
+}
+
+  .imgc2{
+    margin-top: 35%!important;
+    font-size: 52px!important;
+    color: white;
+    font-family: reduced;
+  }
+
+  .imgc3{
+    margin-top: 35%!important;
+    margin-left: 5%!important;
+    font-size: 52px!important;
+    color: white;
+    font-family: reduced;
+  }
+
+  .c1{
+  height: 550px!important;
+}
+
+.c2{
+  height: 550px!important;
+}
+
+.c3{
+  height: 550px!important;
+}
+
+.cab_serv{
+  font-size: 18px!important;
+}
+
+}
+
+@media only screen and (max-width: 1100px) {
+  .cab_serv{
+  font-size: 16px!important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .cab_serv{
+  font-size: 14px!important;
+  }
+  .texto_capa{
+    font-size:30px!important;
+  }
+
+  .titulo_portfolio{
+  font-size: 19px!important;
+}
+
+.texto_portfolio{
+  font-size:10px!important;
+}
+
+.portfolio_caption{
+  height: 65px!important;
+  margin-top: -65px!important;
+}
+
+.titulo_contato{
+  font-size: 40px!important;
+}
+
+.titulo_contato_2{
+  font-size: 16px!important;
+  padding: 8px 0 8px 0!important;
+}
+
+.texto_contato{
+  font-size: 14px!important;
+}
+
+.caixa_formulario{
+  width: 370px!important;
+  height: 300px!important;
+}
+
+.form-group > input, .form-group > textarea{
+  font-size: 12px!important;
+}
+
+.caixa_f{
+  padding: 0 5px 5px 5px!important;
+}
+
+form > .btn{
+  font-size: 12px!important;
+}
+
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .c1p{
+      margin-top: 65%!important;
+      margin-bottom: 5%!important;
+      font-size: 12px!important;
+  }
+
+  .c2p{
+      margin-top: 25%!important;
+      margin-bottom: 5%!important;
+      font-size: 11px!important;
+  }
+
+  .c3p{
+      margin-top: 65%!important;
+      margin-bottom: 5%!important;
+      font-size: 10px!important;
+  }
+
+  .c3p > h2{
+      font-size: 13px!important;
+  }
+
+  .imgc1{
+  margin-top: 90%!important;
+  font-size: 38px!important;
+  color: white;
+  font-family: reduced;
+}
+
+  .imgc2{
+    margin-top: 75%!important;
+    font-size: 38px!important;
+  }
+
+  .imgc3{
+    margin-top: 85%!important;
+    margin-left: 5%!important;
+    font-size: 38px!important;
+  }
+
+  .c1{
+    height: 550px!important;
+  }
+
+  .c2{
+    height: 550px!important;
+  }
+
+  .c3{
+    height: 550px!important;
+  }
+
+
+}
+
+@media only screen and (max-width: 830px) {
+    .titulo_portfolio{
+      font-size: 16px!important;
+    }
+
+    .texto_portfolio{
+      font-size:8px!important;
+    }
+
+    .portfolio_caption{
+      height: 55px!important;
+      margin-top: -55px!important;
+    }
+
+}
+
+@media only screen and (max-width: 807px) {
+  .cab_serv{
+  font-size: 12px!important;
+  }
+
+  .texto_capa{
+    font-size:27px!important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .texto_capa{
+    font-size:27px!important;
+  }
+
+  .texto_capa2{
+    font-size:14px!important;
+  }
+
+  .titulo_portfolio{
+      font-size: 25px!important;
+    }
+
+    .texto_portfolio{
+      font-size:14px!important;
+    }
+
+    .portfolio_caption{
+      height: 80px!important;
+      margin-top: -80px!important;
+    }
+
+    .titulo_contato{
+      font-size: 60px!important;
+    }
+
+    .titulo_contato_2{
+      font-size: 24px!important;
+      padding: 20px 0 20px 0!important;
+    }
+
+    .texto_contato{
+      font-size: 20px!important;
+    }
+
+    .caixa_formulario{
+      width: 500px!important;
+      height: 405px!important;
+    }
+
+    .form-group > input, .form-group > textarea{
+      font-size: 16px!important;
+    }
+
+    .caixa_f{
+      padding: 0 20px 20px 20px!important;
+    }
+
+    form > .btn{
+      font-size: 18px!important;
+    }
+
+    .container > .row > .col-md-4 > .c1p{
+      margin-top:0%!important;
+    }
+
+.slide1{
+      padding-top:25%!important;
+    }
+
+    .c1p{
+      margin-top: 0%!important;
+      margin-bottom: 0%!important;
+      font-size: 10px!important;
+      text-align: center!important;
+  }
+
+  .c2p{
+      margin-top: 0%!important;
+      margin-bottom: 0%!important;
+      font-size: 10px!important;
+  }
+
+ .c3p{
+      margin-top: 115%!important;
+      margin-bottom: 5%!important;
+  }
+
+  .c3p > h2{
+      font-size: 11px!important;
+  }
+
+
+  .imgc1{
+  margin-top: 0%!important;
+  font-size: 28px!important;
+}
+
+  .imgc2{
+    margin-top: 0%!important;
+    font-size: 18px!important;
+  }
+
+  .imgc3{
+    margin-top: 150%!important;
+    margin-left: 45%!important;
+    font-size: 26px!important;
+  }
+
+  .c1{
+    height: auto!important;
+  }
+
+  .c2{
+    height: auto!important;
+  }
+
+  .c3{
+    height: auto!important;
+  }
+
+  .imgc2X{
+    display:none!important;
+  }
+
+  .imgc2Y{
+    display:block!important;
+    text-align: center!important;
+    font-size:26px!important;
+  }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 735px) {
+  .cab_serv{
+  font-size: 10px!important;
+  }
+  .texto_capa{
+    font-size:26px!important;
+  }
+
+  .texto_capa2{
+    font-size:13px!important;
+  }
+}
+
+@media only screen and (max-width: 668px) {
+  .cab_serv{
+  font-size: 9px!important;
+  }
+
+  .card-footer{
+    font-size: 12px!important;
+    white-space: nowrap!important;
+  }
+  .texto_capa{
+    font-size:25px!important;
+  }
+
+  .texto_capa2{
+    font-size:12px!important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+   .c3p > h2{
+      font-size: 10px!important;
+  }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+  .card{
+    margin-top: 20px!important;
+  }
+
+  .cab_serv{
+  font-size: 18px!important;
+  }
+
+
+ .c3p{
+      margin-top: 0%!important;
+      margin-bottom: 5%!important;
+      margin-left: 28%!important;
+  }
+
+  .c3p > h2{
+      font-size: 11px!important;
+  }
+
+
+  .imgc1{
+  margin-top: 0%!important;
+  font-size: 28px!important;
+}
+
+  .imgc2{
+    margin-top: 0%!important;
+    font-size: 18px!important;
+  }
+
+  .imgc3{
+    margin-top: 0%!important;
+    font-size: 26px!important;
+  }
+
+  .c1{
+    height: auto!important;
+  }
+
+  .c2{
+    height: auto!important;
+  }
+
+  .c3{
+    height: auto!important;
+  }
+
+  .c3p2{
+    margin-top: -15px!important;
+  }
+
+  .imgc3X{
+    display: none!important;
+  }
+
+  .imgc3Y{
+    display: block!important;
+    margin-right: 37%!important;
+  }
+
+}
+
+@media only screen and (max-width: 552px) {
+
+.titulo_contato{
+  font-size: 48px!important;
+}
+
+.titulo_contato_2{
+  font-size: 18px!important;
+  padding: 12px 0 12px 0!important;
+}
+
+.texto_contato{
+  font-size: 18px!important;
+}
+
+.caixa_formulario{
+  width: 425px!important;
+  height: 344px!important;
+}
+
+.form-group > input, .form-group > textarea{
+  font-size: 15px!important;
+}
+
+.caixa_f{
+  padding: 0 15px 15px 15px!important;
+}
+
+form > .btn{
+  font-size: 14px!important;
+}
+
+
+}
+
+@media only screen and (max-width: 529px) {
+
+    /*.c3p{
+      margin-top: 85%!important;
+      margin-bottom: 5%!important;
+      font-size: 9px!important;
+    }
+
+    .c3p > h2{
+        font-size: 10px!important;
+    }
+    .imgc3{
+      margin-top: 200%!important;
+      margin-left: 5%!important;
+      font-size: 16px!important;
+    }*/
+
+    .texto_capa{
+    font-size:23px!important;
+  }
+
+  .texto_capa2{
+    font-size:11px!important;
+  }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+.titulo_servicos{
+  font-size: 50px!important;
+}
+
+.titulo_contato{
+  font-size: 40px!important;
+}
+
+.titulo_contato_2{
+  font-size: 14px!important;
+  padding: 6px 0 6px 0!important;
+}
+
+.texto_contato{
+  font-size: 14px!important;
+}
+
+.caixa_formulario{
+  width: 380px!important;
+  height: 308px!important;
+}
+
+.form-group > input, .form-group > textarea{
+  font-size: 12px!important;
+}
+
+.caixa_f{
+  padding: 0 15px 0px 15px!important;
+}
+
+form > .btn{
+  font-size: 12px!important;
+}
+
+.texto_capa{
+    font-size:22px!important;
+  }
+
+  .texto_capa2{
+    font-size:10px!important;
+  }
+
+  .c2p{
+    font-size:9px!important;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+   /* .c3p{
+      margin-top: 85%!important;
+      margin-bottom: 5%!important;
+      font-size: 9px!important;
+    }
+
+    .c3p > h2{
+        font-size: 9px!important;
+    }
+    .imgc3{
+      margin-top: 200%!important;
+      margin-left: 5%!important;
+      font-size: 14px!important;
+    }*/
+
+}
+
+@media only screen and (max-width: 432px) {
+
+   /* .c3p{
+      margin-top: 85%!important;
+      margin-bottom: 5%!important;
+      font-size: 8px!important;
+    }
+
+    .c3p > h2{
+        font-size: 8px!important;
+    }
+    .imgc3{
+      margin-top: 200%!important;
+      margin-left: 5%!important;
+      font-size: 12px!important;
+    }*/
+
+    .texto_capa{
+    font-size:22px!important;
+  }
+
+  .texto_capa2{
+    font-size:9px!important;
+  }
+
+}
+
+@media only screen and (max-width: 430px) {
+
+  .titulo_contato{
+  font-size: 40px!important;
+  }
+
+  .titulo_contato_2{
+    font-size: 14px!important;
+    padding: 6px 0 6px 0!important;
+  }
+
+  .texto_contato{
+    font-size: 14px!important;
+  }
+
+  .caixa_formulario{
+    width: 340px!important;
+    max-height: 375px!important;
+  }
+
+  .form-group > input, .form-group > textarea{
+    font-size: 12px!important;
+  }
+
+  .caixa_f{
+    padding: 0 15px 0px 15px!important;
+  }
+
+  form > .btn{
+    font-size: 12px!important;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+.titulo_servicos{
+  font-size: 44px!important;
+}
+
+.texto_servicos{
+  font-size: 17px!important;
+}
+
+.caixa_formulario{
+    width: 320px!important;
+    max-height: 359px!important;
+  }
+
+  .caixa_blog{
+  width: 300px!important;
+  height: 300px!important;
+}
+
+.caixa_blog2{
+  width: 300px!important;
+  height: 300px!important;
+  margin-right: 50%!important;
+}
+
+.blog_texto{
+  font-size: 13px!important;
+}
+
+.btn-success{
+  font-size: 12px!important;
+}
+
+
+}
+
+@media only screen and (max-width: 400px) {
+  .caixa_formulario{
+    width: 300px!important;
+    max-height: 343px!important;
+  }
+
+  .caixa_blog2{
+    margin-left: 10%!important;
+  }
+
+  .caixa_blog{
+    margin-right: 10%!important;
+  }
+
+}
+
+@media only screen and (max-width: 383px) {
+
+    /*.c3p{
+      margin-top: 85%!important;
+      margin-bottom: 5%!important;
+      font-size: 7px!important;
+    }
+
+    .c3p > h2{
+        font-size: 7px!important;
+    }
+    .imgc3{
+      margin-top: 200%!important;
+      margin-left: 5%!important;
+      font-size: 11px!important;
+    }*/
+
+    .texto_capa{
+    font-size:20px!important;
+  }
+
+  .texto_capa2{
+    font-size:7px!important;
+  }
+
+}
+
+@media only screen and (max-width: 350px) {
+
+    .imgc2Y{
+        font-size:22px!important;
+    }
+
+    .titulo_servicos{
+  font-size: 42px!important;
+}
+
+}
+
+@media only screen and (max-width: 340px) {
+
+  .caixa_formulario{
+    width: 250px!important;
+    max-height: 300px!important;
+  }
+
+  .caixa_blog2{
+    margin-left: 10%!important;
+  }
+
+  .caixa_blog{
+    margin-right: 10%!important;
+  }   
+
+
+}

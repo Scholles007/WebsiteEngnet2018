@@ -1,0 +1,62 @@
+#titulo{
+    font-size:80px;
+    align-content: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#lead{
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+
+
+
+.separador{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+.tituloprojetos{
+    text-align: left;   
+}
+
+.col-sm-4{
+    text-align: left;
+}
+
+.titulosport{
+    text-transform: uppercase;
+}
+
+
+
+texto-imagem{
+    
+}
+
+.card-size{
+    width: 180px;
+    height: 180px;
+}
+
+.img-titulo{
+    background-image: url(../../../img/backgrounds/24.jpg);
+    
+    height: 250px;
+    width: 100%, ;
+    background-attachment: fixed;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    padding: inherit;
+}   
+
+body, html {
+    height: 100%;
+    padding-top: 60px;
+    font-family: unbr;
+}

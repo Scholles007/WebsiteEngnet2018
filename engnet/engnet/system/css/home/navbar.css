@@ -1,0 +1,151 @@
+@media only screen and (max-width: 1200px) {
+    .ct3{
+        margin-right: 450px!important;
+    }
+
+    .nav_itens{
+        margin-left:30%!important;
+    }
+
+}
+
+@media only screen and (max-width: 993px) {
+    .nav_itens{
+        margin-left:25%!important;
+    }
+
+    .ct3{
+        margin-right: 0!important;
+    }
+
+    .nav-item > .active p{
+        border-bottom: none!important;
+    } 
+
+    .navbar-toggler-icon.scrolled{
+      visibility: visible!important;
+    }
+
+    .navbar-toggler-icon{
+      visibility: hidden!important;
+    }
+
+    .navbar-yea{
+      display: none!important;
+    }
+
+    .navbar-yea.scrolled{
+      display: block!important;
+    }
+   
+
+}
+
+@media only screen and (max-width: 575px) {
+
+  .fixed-top{
+    display: none!important;
+  }
+
+  .fixed-top.scrolled{
+    display:block!important;
+  }
+
+}
+
+
+.nav_inicial{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav_inicial .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav_inicial .navbar-toggler-icon.scrolled {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  transition: background-color 300ms linear;
+}
+
+.fixed-top.scrolled {
+  background-color: white;
+  transition: background-color 300ms linear;
+  box-shadow: 0 0 20px 0 #b0b3b7;
+}
+
+.fixed-top {
+  transition: background-color 300ms linear;
+  transition: background 300ms linear;
+}
+
+.nav-link{
+  color:#ffffff;
+}
+
+.fixed-top.scrolled .nav-link {
+  color:black;
+}
+
+.logomarca{
+    height: 61px;
+    width: 150px;
+    display: block;
+    background: url('../../img/logo_nova.png') no-repeat !important;
+    background-size: contain;
+    color: transparent;
+}
+
+.logomarca.scrolled{
+    background: url('../../img/logo_nova_cinza.png') no-repeat !important;
+    transition: background 300ms linear;
+    background-size: contain;
+    color: transparent;
+    height: 61px;
+    width: 150px;
+    display: block;
+}
+
+.nav_itens{
+  margin-left:40%;
+  padding-top: 5px;
+  overflow: hidden;
+  width: 60%;
+}
+
+.nav_elemento{
+  transition-duration: 400ms;
+  /*color: #dee1e4;*/
+  color: white;
+  /*font-family: Arial,Helvetica Neue,Helvetica,sans-serif;*/
+  font-family: unbr;
+  font-weight: lighter;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.nav_elemento.scrolled{
+  color: #929292;
+  transition-duration: 400ms;
+  /*color: #dee1e4;*/
+  /*font-family: Arial,Helvetica Neue,Helvetica,sans-serif;*/
+  font-family: unb;
+  font-weight: lighter;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.nav_elemento:hover{
+  color: #de761b !important;
+  transition-duration: 400ms;
+}
+
+.nav-item > .active p{
+  display: block;
+  color: #de761b !important;
+  transition-duration: 400ms;
+  border-bottom: solid #de761b 1px;
+}
+
+.nav-link{
+    font-size: 16px;
+}

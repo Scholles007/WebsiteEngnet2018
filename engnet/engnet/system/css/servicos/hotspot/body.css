@@ -1,0 +1,203 @@
+.titulo_hotspot{
+  white-space: nowrap;
+  font-family: unbr;
+  font-size: 60px;
+  text-align: center;
+}
+
+.title-hotspot {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: unbr;
+}
+
+.titulo_portfolio{
+  white-space: nowrap;
+  font-family: unbr;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+#outros {
+    top:50px;
+    width: 100%;
+    height:auto; 
+    margin-top: 20px;
+    background-color: white;
+}
+
+.cab_serv{
+  font-family: unbr;
+  font-size: 18px;
+  white-space: nowrap;
+  padding-top: 8px;
+}
+
+
+.card-footer{
+  font-size: 15px;
+  font-family: unb;
+  text-align: center;
+  color: black;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.3rem;
+}
+
+.centz{
+  text-align: center;
+}
+
+.c2p{
+  font-family: unbr;
+  text-align: justify;
+  margin-bottom: 20%;
+  font-size: 18px;
+}
+
+.title-arch {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.project {
+  width: 100%;
+  height: 500px;
+  background-image: url('../../../img/servicos/hs1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 0 !important;
+  float:left;
+  font-family: unbr;
+}
+
+.project-2 {
+  background-image: url('../../../img/backgrounds/29.jpg');
+}
+
+.project-4 {
+  background-image: url('../../../img/servicos/hs3.jpg');
+}
+
+
+.project-hover {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #fd7b0091;
+  padding: 40% 30px !important;
+}
+
+.project-hover hr {
+  height: 30px;
+  width: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: rgba(255, 255, 255, 1);
+  border: 0;
+}
+
+.project-hover a {
+  color: rgba(255, 255, 255, 1);
+  padding: 2px 22px;
+  line-height: 40px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+  border-color: rgba(51, 51, 51, 1);
+  color: rgba(51, 51, 51, 1);
+  background-color: #FFF;
+}
+
+.project:hover .project-hover {
+  opacity: 1;
+}
+
+.project:hover .project-hover hr {
+  width: 100%;
+  height: 5px;
+}
+
+<style>
+    .left,
+    .right {
+        top: 50%;
+        float: left;
+        transform: translateY(125%);
+    }
+
+    .left {
+        background: #FFA500;
+        display: inline-block;
+        white-space: nowrap;
+        width: 50px;
+        transition: width 1s;
+    }
+
+    .right {
+        background: #fff;
+        width: 350px;
+        transition: width 1s;
+        border-style: solid;
+        border-color: #ccc;
+        border-width: 1px;
+    }
+
+    .left:hover {
+        width: 100%;
+        position: relative;
+        
+    }
+
+    .item:hover {
+        background-color: #222;
+    }
+
+    .left .fas {
+        margin: 15px;
+        width: 20px;
+        color: #fff;
+    }
+
+    i.fas {
+        font-size: 17px;
+        vertical-align: middle !important;
+    }
+
+    .item {
+        height: 50px;
+        overflow: hidden;
+        color: #fff;
+    }
+
+    a {
+    color: #f8f9fa;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+</style>

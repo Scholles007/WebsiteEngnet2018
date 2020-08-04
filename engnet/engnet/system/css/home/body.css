@@ -1,0 +1,475 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: relative;
+    z-index:0;
+    right: 0;
+    bottom: 0;
+    top:0;
+    left:0;
+    width: 100%; 
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+
+
+}
+
+body{
+  overflow-x: hidden!important;
+}
+
+
+.meuvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:0;
+    left:0;
+    z-index:1;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%; 
+    height: 100%;
+
+}
+
+.content_video{
+    position:absolute;
+    top:25%;
+    left:15%;
+    z-index:2;
+    color: white;
+}
+
+.texto_menu{
+  margin-top: 16%;
+  margin-left: 0;
+}
+
+.texto_capa{
+  font-family: unb;
+  font-weight: 100;
+  text-align: left;
+  align-content: center;
+    
+    white-space: nowrap;
+    width: 80%;
+}
+
+.texto_capa2{
+  font-family: unb;
+  font-weight: 100;
+  align-content: center;
+  text-align: justify;
+  width: 85%;
+}
+
+.secao{
+    position: absolute;
+    z-index: 3;
+    background-attachment: fixed;
+    width: 100%; 
+    height: 100%;
+    background-color:#f6f6f6;
+    color: black;
+    margin-top: -10px;
+}
+
+}
+
+.cnt{
+    text-align: center;
+}
+
+.hserv{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 7rem;
+}
+
+
+#servicos {
+    top:50px;
+    width: 100%;
+    height:auto; 
+    margin-top: 20px;
+    background-color: white;
+}
+
+  #engnet {
+    /*top:50px;
+    width: 100%;
+    height:auto; 
+    margin-top: 20px;*/
+
+}
+  #portfolio {
+    top:50px;
+    width: 100%;
+    height:auto; 
+    background-color: white;
+
+}
+  #parceiros {
+    top:50px;
+    width: 100%;
+    height:300px;
+    margin-top: 20px;
+
+}
+
+  #fox {
+    width: 100%;
+    height:500px; 
+    margin-top: 20px;
+    background-image: url('../../img/backgrounds/neo/fox2.jpg');
+    background-size: cover;
+    background-attachment: fixed!important;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+  #blog {
+    width: 100%;
+    height:500px; 
+    margin-top: 20px;
+    background-image: url('../../img/backgrounds/neo/blog2.jpg');
+    background-size: cover;
+    background-attachment: fixed!important;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+  #contato {
+    width: 100%;
+    height:630px;
+    padding-top: 20px;
+    /*box-shadow: |h-offset v-offset blur spread color |inset|initial|inherit;*/
+    box-shadow: 0px -6px 10px 5px #b0b3b7;
+    background-color: #064874;
+}
+
+.caixa_servicos{
+    height: 215px;
+}
+
+
+.texto_sobrenos{
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+}
+
+.carousel-item{
+    font-size:20px;
+}
+
+.c1{
+  background-image: url('../../img/backgrounds/neo/c1.jpg');
+  background-attachment: fixed;
+  min-height: 600px;
+  max-height: 700px;
+  height: auto;
+  color: white;
+  font-family: unbr;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.c2{
+  background-image: url('../../img/backgrounds/neo/c2.jpg');
+  background-attachment: fixed;
+  min-height: 600px;
+  max-height: 800px;
+  height: auto;
+  color: white;
+  font-family: unbr;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.c3{
+  background-image: url('../../img/backgrounds/neo/c3.jpg');
+  background-attachment: fixed;
+  min-height: 600px;
+  max-height: 700px;
+  height: auto;
+  color: white;
+  font-family: unbr;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.imgc1{
+  margin-top: 35%;
+  font-size: 60px;
+  color: white;
+  font-family: reduced;
+}
+
+.imgc2{
+  margin-top: 35%;
+  font-size: 60px;
+  color: white;
+  font-family: reduced;
+}
+
+.imgc3{
+  margin-top: 35%;
+  font-size: 60px;
+  color: white;
+  font-family: reduced;
+}
+
+.c1p{
+  font-family: unb;
+  color:#c9c9c9!important;
+  text-align: justify;
+  margin-top: 25%;
+  margin-bottom: 20%;
+  font-size: 20px;
+}
+
+.c2p{
+  font-family: unb;
+  color:#c9c9c9!important;
+  text-align: justify;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  font-size: 15px;
+}
+
+.c3p{
+  font-family: unb;
+  color:#c9c9c9!important;
+  text-align: justify;
+  margin-top: 35%;
+  margin-bottom: 30%;
+  font-size: 14px;
+}
+
+.imgc2Y{
+  display:none;
+}
+
+.imgc3Y{
+    display:none;
+  }
+
+.centz{
+  text-align: center;
+}
+
+.cent2z{
+  text-align: left;
+  white-space: nowrap;
+}
+
+.titulo_servicos{
+  white-space: nowrap;
+  font-family: unbr;
+  font-size: 60px;
+  text-align: center;
+}
+
+.texto_servicos{
+  white-space: nowrap;
+  font-family: unbr;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.cab_serv{
+  font-family: unbr;
+  font-size: 18px;
+  white-space: nowrap;
+  padding-top: 8px;
+}
+
+.card-footer{
+  font-size: 13px;
+  font-family: unb;
+  text-align: center;
+  color: black;
+}
+
+.card-footer:hover{
+  background-color: #e3e3e3;
+  transition-duration: 0.8s;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.caixa_blog{
+  background-color: rgba(0,0,0,0.5);
+  width: 350px;
+  height: 350px;
+  margin-top: 20%;
+}
+
+.caixa_blog2{
+  background-color: rgba(0,0,0,0.5);
+  width: 350px;
+  height: 350px;
+  margin-top: 20%;
+}
+
+.blog_header{
+  font-family: unb;
+  font-size: 24px;
+  color: #df771c;
+  padding-top: 10px;
+}
+
+.blog_texto{
+  text-indent: 15px;
+  color: white;
+  text-align: justify;
+  font-family: unb;
+  font-size: 15px;
+  padding: 5px 15px 10px 15px;
+}
+
+p + .btn{
+  font-size:18px!important;
+  font-family: unbr;
+}
+
+.btn-success{
+  background-color:#df771c!important;
+  border-color: #df771c!important;
+  font-size: 18px!important;
+  font-family: unbr!important;
+}
+
+.btn-success:hover{
+  background-color:#bd6212!important;
+  border-color: #df771c!important;
+  font-size: 18px!important;
+  font-family: unbr!important;
+  transition-duration: 0.8s;
+}
+
+.titulo_portfolio{
+  white-space: nowrap;
+  font-family: unbr;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.texto_portfolio{
+  font-family: unbr;
+  font-size:14px;
+}
+
+.portfolio_imagem{
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio_caption{
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  color:white;
+  z-index: 2;
+  width: 100%;
+  height: 90px;
+  margin-top: -90px;
+}
+
+.portfolio_imagem:hover + .portfolio_caption{
+  background-color: rgba(0,0,0,0.8);
+  color:#fab040;
+  transition-duration: 0.8s;
+}
+
+.portfolio_caption:hover{
+  background-color: rgba(0,0,0,0.8);
+  color:#fab040;
+  transition-duration: 0.8s;
+}
+
+.card-link{
+  font-family: unbr;
+  font-size: 22px;
+}
+
+.card-body{
+  font-family: unbr;
+  font-size: 16px;
+}
+
+.titulo_contato{
+  white-space: nowrap;
+  font-family: unbr;
+  font-size: 60px;
+  text-align: center;
+  color:white;
+}
+
+.titulo_contato_2{
+  white-space: nowrap;
+  font-family: unbr;
+  font-size: 24px;
+  text-align: center;
+  color: #00a3bb;
+  padding: 20px 0 20px 0;
+}
+
+.texto_contato{
+  font-family: unbr;
+  font-size: 20px;
+  text-align: center;
+  color:white;
+}
+
+.caixa_formulario{
+  width: 500px;
+  height: 405px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.form-group > input, .form-group > textarea{
+  font-family: unbr;
+  font-size: 16px;
+}
+
+.caixa_f{
+  padding: 0 20px 20px 20px;
+}
+
+form > .btn{
+  font-size: 18px;
+  font-family: unbr!important;
+}
+
+.separador{
+  width: 100%;
+  height: 60px;
+  background-color: #064874;
+}
+
+.btnlinkarproj{
+    background-color: aqua;
+}
+
+.alinhaNoCentro{
+    align-content: center;
+}
